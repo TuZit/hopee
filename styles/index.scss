@@ -1,4 +1,4 @@
-@import './footer.scss';
+@import "./footer.scss";
 
 * {
   box-sizing: border-box;
@@ -13,4 +13,37 @@ a {
 ul,
 ol {
   list-style-type: none;
+}
+
+.hightlight-product {
+  &-container {
+  }
+  &__top {
+    display: flex;
+    gap: 16px;
+
+    &--left {
+      flex-basis: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    &--right {
+      flex-basis: 50%;
+      display: flex;
+      gap: 16px;
+
+      .hightlight-product-item {
+        flex-basis: 50%;
+        gap: 16px;
+      }
+    }
+  }
+  &__bot {
+    display: flex;
+    .hightlight-product-item {
+      flex-basis: 25%;
+      gap: 16px;
+    }
+  }
 }
