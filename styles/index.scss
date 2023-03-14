@@ -32,7 +32,6 @@ ol {
       flex-basis: 50%;
       display: flex;
       gap: 16px;
-
       .hightlight-product-item {
         flex-basis: 50%;
         gap: 16px;
@@ -46,4 +45,38 @@ ol {
       gap: 16px;
     }
   }
+}
+
+// For 3 banners
+.thumbnails {
+  display: flex;
+  padding: 6rem 10%;
+}
+
+.thumbnails__items {
+  flex-basis: 30%;
+  text-align: center;
+  margin: 0 auto;
+}
+.thumbnails__items h4 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  padding-top: 3rem;
+}
+
+.thumbnails__items-img {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.thumbnails__items-img img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.4s ease-in-out;
+}
+
+.thumbnails__items:hover img {
+  transform: scale(1.2, 1.2) translateX(12px);
 }
