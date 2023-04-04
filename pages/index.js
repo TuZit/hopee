@@ -1,4 +1,5 @@
 import Footer from "../components/Footer/index.jsx";
+import HomePage from "../components/HomePage";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -13,7 +14,7 @@ export default function Home() {
   return (
     <div className="root">
       {/* Header */}
-      <div className="header">
+      {/* <div className="header">
         <div className="logo">Logo</div>
         <div className="">
           <ul className="top-bar">
@@ -23,10 +24,10 @@ export default function Home() {
             <li>Contact</li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* Slider */}
-      <div className="desc-banner">
+      {/* <div className="desc-banner">
         <ul className="list-category">
           <li>
             <Link href="/">aaaaaaaaaaaaaaa</Link>
@@ -77,10 +78,11 @@ export default function Home() {
             </SwiperSlide>
           </Swiper>
         </div>
-      </div>
+      </div> */}
 
       {/* Service Description */}
 
+      <HomePage />
       {/* <Footer /> */}
 
       {/* Hight Light Product */}
