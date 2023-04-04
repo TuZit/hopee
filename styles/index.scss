@@ -1,10 +1,14 @@
-@import "./footer.scss";
-@import "./homepage.scss";
+@import './footer.scss';
+@import './homepage.scss';
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -143,7 +147,7 @@ ol {
 
 // common styles
 .section-title {
-  font-family: "Amatic SC", cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 30px !important;
   position: relative;
   text-transform: capitalize;
@@ -155,7 +159,7 @@ ol {
   line-height: 24px;
   margin-bottom: 20px;
   &::after {
-    content: "";
+    content: '';
     background: #3a9943;
     width: 66px;
     height: 2px;

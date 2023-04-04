@@ -1,18 +1,18 @@
-import Footer from "../components/Footer/index.jsx";
-import HomePage from "../components/HomePage";
-import { Swiper, SwiperSlide } from "swiper/react";
+import Footer from '../components/Footer/index.jsx';
+import HomePage from '../components/HomePage';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from 'swiper';
 
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="root">
+    <div className='root'>
       {/* Header */}
       {/* <div className="header">
         <div className="logo">Logo</div>
@@ -83,7 +83,7 @@ export default function Home() {
       {/* Service Description */}
 
       <HomePage />
-      {/* <Footer /> */}
+      <Footer />
 
       {/* Hight Light Product */}
       {/* <div className="hightlight-product">
