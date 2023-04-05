@@ -26,6 +26,17 @@ export default function Home() {
           </ul>
         </div>
       </div> */}
+      <h2
+        style={{
+          fontFamily: "Amatic SC",
+          textAlign: "center",
+          paddingTop: "40px",
+          fontWeight: "700",
+          fontSize: "60px",
+        }}
+      >
+        Iu Phương Thảo
+      </h2>
       <Header />
 
       {/* Slider */}
