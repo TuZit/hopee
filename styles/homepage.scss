@@ -49,7 +49,50 @@
       }
     }
 
+    .intro-product {
+      &__logo {
+        display: flex;
+        align-items: center;
+        padding: 50px 0 20px 0;
+
+        img {
+          width: 64px;
+          height: 64px;
+          object-fit: cover;
+        }
+        h4 {
+          padding-left: 48px;
+          font-size: 40px;
+          line-height: 46px;
+          font-family: "Amatic SC";
+        }
+      }
+      &__text {
+        font-size: 18px;
+        line-height: 34px;
+        font-weight: 500;
+        color: #878986;
+      }
+    }
+
     .feature-product {
+      margin-top: 50px;
+      // text-align: center;
+
+      h4 {
+        font-weight: 600;
+        color: #5b8c51;
+        font-size: 14px;
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+      }
+      h3 {
+        line-height: 70px;
+        font-size: 60px;
+        font-family: "Amatic SC", cursive;
+        margin-bottom: 20px;
+      }
+
       .feature-product-list {
         .feature-product-item {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
@@ -127,8 +170,8 @@
 
       h4 {
         font-family: "Amatic SC", cursive;
-        line-height: 50px;
-        font-size: 40px;
+        line-height: 58px;
+        font-size: 50px;
         width: 80%;
         padding: 16px 16px 0 16px;
         padding-top: 50px;
@@ -137,6 +180,54 @@
         font-size: 16px;
         word-spacing: 4px;
         padding: 16px;
+        font-weight: 500;
+      }
+    }
+    .banner-image {
+      margin: 0 -16px;
+      width: 100vw;
+      height: calc(100vh - 170px);
+      position: relative;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+      }
+      &__text {
+        position: absolute;
+        inset: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+
+        h4 {
+          text-transform: uppercase;
+          font-size: 18px;
+          padding: 8px 16px;
+          background: #ffffff1a;
+          width: 90%;
+          margin: 0 auto;
+          margin-bottom: 26px;
+        }
+        h3 {
+          font-family: "Amatic SC", cursive;
+          font-weight: 700;
+          font-size: 60px;
+          margin-bottom: 50px;
+        }
+        a {
+          padding: 20px;
+          background-color: #eddd5e;
+          line-height: 20px;
+          font-size: 18px;
+          color: #404a3d;
+          font-weight: 600;
+          border-radius: 6px;
+        }
       }
     }
   }
