@@ -1,7 +1,12 @@
 import React from 'react';
+import DetailLayout from '../components/DetailLayout';
 
 const Quat = () => {
-  return <div>Quat</div>;
+  return (
+    <>
+      <DetailLayout />
+    </>
+  );
 };
 
 export default Quat;
