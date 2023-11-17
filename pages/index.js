@@ -24,9 +24,12 @@ export default function Home() {
           className='mySwiper'
         >
           <SwiperSlide>
-            <div className='w-screen relative'>
+            <div
+              className='w-screen relative'
+              style={{ height: 'calc(60vh - 60px)' }}
+            >
               <img
-                src='/home/product-3.png'
+                src='/home/main-bg.jpg'
                 alt='bìa trang cây cảnh'
                 className='w-full h-full object-cover block'
               />
@@ -45,12 +48,9 @@ export default function Home() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div
-              className='w-screen relative'
-              style={{ height: 'calc(60vh - 60px)' }}
-            >
+            <div className='w-screen relative'>
               <img
-                src='/home/main-bg.jpg'
+                src='/home/product-3.png'
                 alt='bìa trang cây cảnh'
                 className='w-full h-full object-cover block'
               />

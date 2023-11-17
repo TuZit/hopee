@@ -5,20 +5,22 @@ const Header = () => {
   return (
     <header className='flex-col justify-center items-center mx-auto w-[80%] mt-2 sm:mt-0 sm:flex'>
       <div className='max-w-[200px] mx-auto'>
-        <img src='logo2.svg' alt='' className='w-[180px] h-[60px]' />
+        <Link href='/'>
+          <img src='logo2.svg' alt='' className='w-[180px] h-[60px]' />
+        </Link>
       </div>
-      <div className='flex items-center justify-between mb-4 mt-4 sm:mb-0 sm:mt-0 text-lg'>
+      <div className='flex flex-wrap gap-y-2 items-center justify-center mb-4 mt-4 sm:mb-0 sm:mt-0 text-lg sm:justify-between'>
         <Link href='/' className='px-4 font-semibold'>
-          Home
+          Trang chủ
         </Link>
         <Link href='/shop' className='px-4 font-semibold'>
           Shop
         </Link>
-        <Link href='/contact ' className='px-4 font-semibold'>
-          Contact
+        <Link href='/ ' className='px-4 font-semibold'>
+          Liên hệ
         </Link>
-        <Link href='/about' className='px-4 font-semibold'>
-          About
+        <Link href='/' className='px-4 font-semibold'>
+          Về chúng tôi
         </Link>
       </div>
     </header>

@@ -1,7 +1,12 @@
 import React from 'react';
+import DetailLayout from '../components/DetailLayout';
 
 const CayGiong = () => {
-  return <div>CayGiong</div>;
+  return (
+    <>
+      <DetailLayout />
+    </>
+  );
 };
 
 export default CayGiong;

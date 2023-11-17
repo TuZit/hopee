@@ -61,7 +61,7 @@ const Footer = () => {
         ></iframe>
       </div>
 
-      <p class='mt-6 text-center'>© All rights reserved by TuZitt.</p>
+      <p className='mt-6 text-center'>© All rights reserved by TuZitt.</p>
     </div>
   );
 };
