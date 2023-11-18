@@ -17,12 +17,23 @@ export default function Document() {
         <meta charSet='utf-8' />
         <meta
           name='description'
-          content='Nhà vườn Cây cảnh, cây giống Giang Nhàn. Cung cấp quất cảnh, bưởi cảnh, chậu cảnh Tết; cây giống: cam giống, chanh giống, bưởi giống...'
+          content='Nhà vườn Cây cảnh, cây giống Giang Nhàn. Cung cấp quất cảnh, bưởi cảnh, chậu cảnh Tết; cây giống: cam giống, chanh giống, bưởi giống. chum quất, quất chum, bưởi cảnh, quất bonsai, cây giống, cây con, cây ổi giống, cây cam giống, cây bưởi giống'
         />
         <meta
           name='og:title'
-          content='Nhà vườn Cây cảnh, cây giống Giang Nhàn. Cung cấp quất cảnh, bưởi cảnh, chậu cảnh Tết; cây giống: cam giống, chanh giống, bưởi giống...'
+          content='Nhà vườn Cây cảnh, cây giống Giang Nhàn. Cung cấp quất cảnh, bưởi cảnh, chậu cảnh Tết; cây giống: cam giống, chanh giống, bưởi giống. chum quất, quất chum, bưởi cảnh, quất bonsai, cây giống, cây con, cây ổi giống, cây cam giống, cây bưởi giống'
         />
+        <meta
+          name='og:description'
+          content='Nhà vườn Cây cảnh, cây giống Giang Nhàn. Cung cấp quất cảnh, bưởi cảnh, chậu cảnh Tết; cây giống: cam giống, chanh giống, bưởi giống. chum quất, quất chum, bưởi cảnh, quất bonsai, cây giống, cây con, cây ổi giống, cây cam giống, cây bưởi giống'
+        />
+        <meta
+          name='keywords'
+          content='Cung cấp quất cảnh, bưởi cảnh, chậu cảnh Tết; cây giống: cam giống, chanh giống, bưởi giống. chum quất, quất chum, bưởi cảnh, quất bonsai, cây giống, cây con, cây ổi giống, cây cam giống, cây bưởi giống'
+        />
+        <link rel='icon' href='/icon-2.png' sizes='any' />
+        <meta property='og:image' content='/thum-1.jpg' />
+        <meta property='og:url' content='https://caycanhnhangiang.website/' />
       </Head>
       <body>
         <Main />

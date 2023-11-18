@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Site</title>
+        <title>Cây cảnh Nhàn Giang</title>
       </Head>
       <Layout>
         <Component {...pageProps} />
