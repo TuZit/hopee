@@ -29,12 +29,12 @@ export default function Home() {
               style={{ height: 'calc(60vh - 60px)' }}
             >
               <img
-                src='/home/main-bg.jpg'
+                src='/quat/chau-nhua-2.jpg'
                 alt='bìa trang cây cảnh'
                 className='w-full h-full object-cover block'
               />
-              <div className='absolute top-[10%] p-4'>
-                <p className='text-white font-semibold text-4xl mb-6 w-[90%]'>
+              <div className='absolute top-[0%] p-4'>
+                <p className='text-gray-800 font-semibold text-4xl mb-6 w-[90%]'>
                   Quất cảnh, bưởi cảnh đẹp phục vụ Tết. Cây giống cam, ổi,
                   bưởi... các loại.
                 </p>
@@ -50,9 +50,9 @@ export default function Home() {
           <SwiperSlide>
             <div className='w-screen relative'>
               <img
-                src='/home/product-3.png'
+                src='/buoi/chum-buoi-2.jpg'
                 alt='bìa trang cây cảnh'
-                className='w-full h-full object-cover block'
+                className='w-full h-full object-cover block max-h-[446px]'
               />
               <div className='absolute top-[10%] p-4'>
                 <p className='text-white font-semibold text-4xl mb-6 w-[90%]'>
@@ -74,12 +74,12 @@ export default function Home() {
               style={{ height: 'calc(60vh - 60px)' }}
             >
               <img
-                src='/home/main-bg.jpg'
+                src='/quat/35.jpg'
                 alt='bìa trang cây cảnh'
                 className='w-full h-full object-cover block'
               />
               <div className='absolute top-[10%] p-4'>
-                <p className='text-white font-semibold text-4xl mb-6 w-[90%]'>
+                <p className='text-fuchsia-50 font-semibold text-4xl mb-6 w-[90%]'>
                   Quất cảnh, bưởi cảnh đẹp phục vụ Tết. Cây giống cam, ổi,
                   bưởi... các loại.
                 </p>
@@ -102,74 +102,63 @@ export default function Home() {
           <div>
             <div className='mb-8'>
               <img
-                src='/home/product-1.jpg'
+                src='/quat/2.jpg'
                 alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
               />
               <p className='text-xl font-semibold mt-3 text-center'>
                 Quất chum
               </p>
               <p className='text-lg font-bold text-[#078d3d] text-center'>
-                1xx.000đ
+                4-5xx.000đ
               </p>
             </div>
             <div className='mb-8'>
               <img
-                src='/home/product-1.jpg'
+                src='/quat/1.jpg'
                 alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
               />
               <p className='text-xl font-semibold mt-3 text-center'>
                 Quất lọ, quất tích nhỏ
               </p>
               <p className='text-lg font-bold text-[#078d3d] text-center'>
-                1xx.000đ
+                1-2xx.000đ
               </p>
             </div>
             <div className='mb-8'>
               <img
-                src='/home/product-1.jpg'
+                src='/quat/chau-nhua-1.jpg'
                 alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
+                className='w-full'
               />
               <p className='text-xl font-semibold mt-3 text-center'>
                 Quất chậu nhựa
               </p>
               <p className='text-lg font-bold text-[#078d3d] text-center'>
-                1xx.000đ
+                1-2xx.000đ
               </p>
             </div>
             <div className='mb-8'>
               <img
-                src='/home/product-1.jpg'
-                alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
-              />
-              <p className='text-xl font-semibold mt-3 text-center'>
-                Quất thế, quất tán to
-              </p>
-              <p className='text-lg font-bold text-[#078d3d] text-center'>
-                1xx.000đ
-              </p>
-            </div>
-            <div className='mb-8'>
-              <img
-                src='/home/product-1.jpg'
+                src='/cay-giong/cam-1.jpg'
                 alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
               />
               <p className='text-xl font-semibold mt-3 text-center'>
                 Cây cam, bưởi giống
               </p>
               <p className='text-lg font-bold text-[#078d3d] text-center'>
-                1xx.000đ
+                {/* 1xx.000đ */}
               </p>
             </div>
             <div className='mb-8'>
               <img
-                src='/home/product-1.jpg'
+                src='/cay-giong/oi-1.jpg'
                 alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
               />
               <p className='text-xl font-semibold mt-3 text-center'>
                 Cây ổi giống
               </p>
               <p className='text-lg font-bold text-[#078d3d] text-center'>
-                1xx.000đ
+                {/* 1xx.000đ */}
               </p>
             </div>
           </div>
@@ -183,7 +172,7 @@ export default function Home() {
           <div className='mb-6'>
             <div className='overflow-hidden mx-auto'>
               <Image
-                src={'/home/product-3.png'}
+                src={'/quat/chum-1.jpg'}
                 width={200}
                 height={200}
                 alt='Cây quất cảnh, quất cảnh Tết, chum chậu quất cảnh'
@@ -195,7 +184,7 @@ export default function Home() {
           <div className='mb-6'>
             <div className='overflow-hidden mx-auto'>
               <Image
-                src={'/home/product-3.png'}
+                src={'/buoi/chum-buoi-1.jpg'}
                 width={200}
                 height={200}
                 alt='Cây quất cảnh, quất cảnh Tết, chum chậu quất cảnh'
@@ -207,7 +196,7 @@ export default function Home() {
           <div className='mb-6'>
             <div className='overflow-hidden mx-auto'>
               <Image
-                src={'/home/product-3.png'}
+                src={'/buoi/buoi-giong-1.jpg'}
                 width={200}
                 height={200}
                 alt='Cây quất cảnh, quất cảnh Tết, chum chậu quất cảnh'
