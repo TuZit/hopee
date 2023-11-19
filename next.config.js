@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const path = require("path");
 const nextConfig = {
-  output: 'export',
+  output: 'standalone',
   reactStrictMode: false,
   swcMinify: true,
   sassOptions: {
@@ -15,6 +15,7 @@ const nextConfig = {
     config.resolve.alias['@styles'] = path.join(__dirname, 'styles');
     return config;
   },
+  productionBrowserSourceMaps: true,
 };
 
 module.exports = nextConfig;
