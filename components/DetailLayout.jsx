@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/legacy/image';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -10,7 +11,15 @@ import 'swiper/css/thumbs';
 // import required modules
 import { FreeMode, Navigation, Thumbs, Autoplay } from 'swiper';
 
-const DetailLayout = () => {
+const DetailLayout = ({
+  listImage = [
+    '/home/product-1.jpg',
+    '/home/prod-1.jpg',
+    '/home/prod-2.jpg',
+    '/home/prod-3.jpg',
+    '/home/prod-4.jpg',
+  ],
+}) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
@@ -35,41 +44,18 @@ const DetailLayout = () => {
         modules={[FreeMode, Navigation, Thumbs, Autoplay]}
         className='mySwiper2'
       >
-        <SwiperSlide>
-          <img
-            src='/home/product-1.jpg'
-            alt='bìa trang cây cảnh'
-            className='w-full h-full object-cover block'
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src='/home/prod-2.jpg'
-            alt='bìa trang cây cảnh'
-            className='w-full h-full object-cover block'
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src='/home/prod-3.jpg'
-            alt='bìa trang cây cảnh'
-            className='w-full h-full object-cover block'
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src='/home/prod-4.jpg'
-            alt='bìa trang cây cảnh'
-            className='w-full h-full object-cover block'
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src='/home/prod-1.jpg'
-            alt='bìa trang cây cảnh'
-            className='w-full h-full object-cover block'
-          />
-        </SwiperSlide>
+        {listImage?.map((item) => (
+          <SwiperSlide key={item}>
+            <Image
+              src={item}
+              alt='Quất chum, chum quất cảnh, quất bonsai'
+              className='w-full h-auto block'
+              objectFit='cover'
+              width={380}
+              height={300}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
       <Swiper
         onSwiper={setThumbsSwiper}
@@ -84,21 +70,18 @@ const DetailLayout = () => {
         modules={[FreeMode, Navigation, Thumbs, Autoplay]}
         className='mySwiper'
       >
-        <SwiperSlide>
-          <img src='/home/product-1.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/home/prod-2.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/home/prod-3.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/home/prod-4.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/home/prod-1.jpg' />
-        </SwiperSlide>
+        {listImage?.map((item) => (
+          <SwiperSlide key={item}>
+            <Image
+              src={item}
+              alt='Quất chum, chum quất cảnh, quất bonsai'
+              className='w-full h-auto block'
+              width={80}
+              height={100}
+              objectFit='cover'
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
       {/* description */}
       <div className='mt-6 mb-8'>
@@ -115,7 +98,7 @@ const DetailLayout = () => {
         </p>
         <ul className='mt-2 list-disc ml-4'>
           <li>
-            Cây Quất Chum cao từ 1 – 1,5m được trồng trong chum sành (gốm) thủ
+            Cây Quất Chum cao từ 1 - 1,5m được trồng trong chum sành (gốm) thủ
             công nghệ thuật.
           </li>
           <li>

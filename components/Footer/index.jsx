@@ -11,19 +11,19 @@ const Footer = () => {
           <Link
             target='_blank'
             href='https://www.google.com/maps/place/Nhà+vườn+Cây+cảnh+và+Cây+giống+Nhàn+Giang,+Unnamed+Road,+Liên+Nghĩa,+Văn+Giang,+Hưng+Yên,+Việt+Nam/@20.9067208,105.9334612,17z/data=!4m6!3m5!1s0x3135b1adf1b0356f:0xd9fe7866980d6f7b!8m2!3d20.9067208!4d105.9334612!16s%2Fg%2F11r9g8q11v?hl=vi-VN'
-            className='font-semibold block py-1 '
+            className='font-semibold block py-1 my-4'
           >
             Địa Chỉ: Thôn CD Quán Trạch, Liên Nghĩa, Văn Giang, Hưng Yên{' '}
             <span className='underline-offset-4 underline'>
               (Bấm để chỉ đường !)
             </span>
           </Link>
-          <Link href='tel:0368080475' className='font-semibold block py-1 '>
-            Số chị Nhàn/Zalo: 0368080475{' '}
+          <Link href='tel:0368080475' className='font-semibold block py-1 my-4'>
+            Số chị Nhàn/Zalo: 0368.080.475{' '}
             <span className='underline-offset-4 underline'>(Bấm để gọi)</span>
           </Link>
-          <Link href='tel:0975363005' className='font-semibold block py-1 '>
-            Số anh Giang/Zalo: 0975363005{' '}
+          <Link href='tel:0975363005' className='font-semibold block py-1 my-4'>
+            Số anh Giang/Zalo: 0975.363.005{' '}
             <span className='underline-offset-4 underline'>(Bấm để gọi)</span>
           </Link>
         </div>
@@ -32,20 +32,20 @@ const Footer = () => {
         <p className='text-2xl font-bold mt-4'>Danh mục cây</p>
         <div className='footer-contact font-semibold'>
           <Link
-            href='/buoi'
-            className='block py-1 underline-offset-4 underline'
+            href='/quat'
+            className='block py-1 underline-offset-4 underline my-4'
           >
             Quất cảnh
           </Link>
           <Link
-            href='/quat'
-            className='block py-1 underline-offset-4 underline'
+            href='/buoi'
+            className='block py-1 underline-offset-4 underline my-4'
           >
             Bưởi cảnh cảnh
           </Link>
           <Link
             href='/cay-giong'
-            className='block py-1 underline-offset-4 underline'
+            className='block py-1 underline-offset-4 underline my-4'
           >
             Cây giống - Cây con
           </Link>
