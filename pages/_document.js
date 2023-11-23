@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang='vi'>
       <Head>
         <link
           rel='preconnect'
@@ -37,6 +37,7 @@ export default function Document() {
           content='https://caycanhnhangiang.website/home/thum-1.jpg'
         />
         <meta property='og:url' content='https://caycanhnhangiang.website/' />
+        <meta http-equiv='Content-Language' content='vi'></meta>
       </Head>
       <body>
         <Main />

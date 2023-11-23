@@ -34,10 +34,10 @@ export default function Home() {
                 className='w-full h-full object-cover block'
               />
               <div className='absolute top-[0%] p-4'>
-                <p className='text-gray-800 font-semibold text-4xl mb-6 w-[90%]'>
+                <h1 className='text-gray-800 font-semibold text-4xl mb-6 w-[90%]'>
                   Quất cảnh, bưởi cảnh đẹp phục vụ Tết. Cây giống cam, ổi,
                   bưởi... các loại.
-                </p>
+                </h1>
                 <p className='mb-6 text-white'>
                   Giá cả phải chăng, phục vụ nhiệt tình.
                 </p>
@@ -55,10 +55,10 @@ export default function Home() {
                 className='w-full h-full object-cover block max-h-[446px]'
               />
               <div className='absolute top-[10%] p-4'>
-                <p className='text-white font-semibold text-4xl mb-6 w-[90%]'>
+                <h1 className='text-white font-semibold text-4xl mb-6 w-[90%]'>
                   Quất cảnh, bưởi cảnh đẹp phục vụ Tết. Cây giống cam, ổi,
                   bưởi... các loại.
-                </p>
+                </h1>
                 <p className='mb-6 text-white'>
                   Giá cả phải chăng, phục vụ nhiệt tình.
                 </p>
@@ -79,10 +79,10 @@ export default function Home() {
                 className='w-full h-full object-cover block'
               />
               <div className='absolute top-[10%] p-4'>
-                <p className='text-fuchsia-50 font-semibold text-4xl mb-6 w-[90%]'>
+                <h1 className='text-fuchsia-50 font-semibold text-4xl mb-6 w-[90%]'>
                   Quất cảnh, bưởi cảnh đẹp phục vụ Tết. Cây giống cam, ổi,
                   bưởi... các loại.
-                </p>
+                </h1>
                 <p className='mb-6 text-white'>
                   Giá cả phải chăng, phục vụ nhiệt tình.
                 </p>
