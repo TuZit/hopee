@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-import 'swiper/css';
+import Link from 'next/link';
 import { Autoplay } from 'swiper';
+import 'swiper/css';
 
 export default function Home() {
   return (
@@ -74,7 +74,7 @@ export default function Home() {
               style={{ height: 'calc(60vh - 60px)' }}
             >
               <img
-                src='/quat/35.jpg'
+                src='/quat/6.jpg'
                 alt='bìa trang cây cảnh'
                 className='w-full h-full object-cover block'
               />
@@ -100,9 +100,9 @@ export default function Home() {
             Cây bán chạy
           </h3>
           <div>
-            <div className='mb-8'>
+            <Link href='/quat/chum' className='mb-8 block'>
               <img
-                src='/quat/2.jpg'
+                src='/quat/chum/2.jpg'
                 alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
               />
               <p className='text-xl font-semibold mt-3 text-center'>
@@ -111,20 +111,9 @@ export default function Home() {
               <p className='text-lg font-bold text-[#078d3d] text-center'>
                 4-5xx.000đ
               </p>
-            </div>
-            <div className='mb-8'>
-              <img
-                src='/quat/1.jpg'
-                alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
-              />
-              <p className='text-xl font-semibold mt-3 text-center'>
-                Quất lọ, quất tích nhỏ
-              </p>
-              <p className='text-lg font-bold text-[#078d3d] text-center'>
-                1-2xx.000đ
-              </p>
-            </div>
-            <div className='mb-8'>
+            </Link>
+
+            <Link href='/quat/chau-nhua' className='mb-8 block'>
               <img
                 src='/quat/chau-nhua-1.jpg'
                 alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
@@ -136,7 +125,48 @@ export default function Home() {
               <p className='text-lg font-bold text-[#078d3d] text-center'>
                 1-2xx.000đ
               </p>
-            </div>
+            </Link>
+
+            <Link href='/quat/ly' className='mb-8 block'>
+              <img
+                src='/quat/ly/6.jpg'
+                alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
+                className='w-full'
+              />
+              <p className='text-xl font-semibold mt-3 text-center'>
+                Quất ly sành để bàn
+              </p>
+              <p className='text-lg font-bold text-[#078d3d] text-center'>
+                1-2xx.000đ
+              </p>
+            </Link>
+
+            <Link href='/quat/mini' className='mb-8 block'>
+              <img
+                src='/quat/mini/1.jpg'
+                alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
+              />
+              <p className='text-xl font-semibold mt-3 text-center'>
+                Quất chậu nhựa mini, quất bát
+              </p>
+              <p className='text-lg font-bold text-[#078d3d] text-center'>
+                1-2xx.000đ
+              </p>
+            </Link>
+
+            <Link href='/quat/tich-nho' className='mb-8 block'>
+              <img
+                src='/quat/so/1.jpg'
+                alt='Quất cảnh, chậu quất cảnh, chum quất cảnh'
+              />
+              <p className='text-xl font-semibold mt-3 text-center'>
+                Quất chum mini (sọ dừa nhỏ)
+              </p>
+              <p className='text-lg font-bold text-[#078d3d] text-center'>
+                1-2xx.000đ
+              </p>
+            </Link>
+
             <div className='mb-8'>
               <img
                 src='/cay-giong/cam-1.jpg'

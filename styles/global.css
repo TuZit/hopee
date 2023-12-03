@@ -5,3 +5,7 @@
 html {
     font-family: 'Inter', sans-serif;
 }
+
+.mySwiper2 .swiper-slide span {
+    min-height: 400px !important;
+}

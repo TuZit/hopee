@@ -2,13 +2,13 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 
-const Header = () => {
+const Header = ({ scrollToFooter }) => {
   return (
     <header className='flex-col justify-center items-center mx-auto w-[80%] mt-2 sm:mt-0 sm:flex'>
       <div className='max-w-[200px] mx-auto'>
         <Link href='/'>
           <Image
-            src='logo2.svg'
+            src='/logo2.svg'
             alt='Logo nhà vườn Nhàn Giang'
             width={180}
             height={60}
@@ -19,10 +19,14 @@ const Header = () => {
         <Link href='/' className='px-4 font-semibold'>
           Trang chủ
         </Link>
-        <Link href='/shop' className='px-4 font-semibold'>
-          Shop
-        </Link>
-        <Link href='/ ' className='px-4 font-semibold'>
+        <Link
+          href='#'
+          className='px-4 font-semibold'
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToFooter();
+          }}
+        >
           Liên hệ
         </Link>
       </div>

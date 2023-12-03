@@ -32,19 +32,19 @@ const Footer = () => {
         <p className='text-2xl font-bold mt-4'>Danh mục cây</p>
         <div className='footer-contact font-semibold'>
           <Link
-            href='/quat'
+            href='#'
             className='block py-1 underline-offset-4 underline my-4'
           >
             Quất cảnh
           </Link>
           <Link
-            href='/buoi'
+            href='#'
             className='block py-1 underline-offset-4 underline my-4'
           >
             Bưởi cảnh cảnh
           </Link>
           <Link
-            href='/cay-giong'
+            href='#'
             className='block py-1 underline-offset-4 underline my-4'
           >
             Cây giống - Cây con

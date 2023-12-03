@@ -19,13 +19,15 @@ const DetailLayout = ({
     '/home/prod-3.jpg',
     '/home/prod-4.jpg',
   ],
+  title = 'Quất chum',
+  price = '1xx.000 - 2xx.000đ',
 }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
     <div>
       <h3 className='mb-4 mt-8 text-2xl underline underline-offset-4 font-bold'>
-        Quất chum
+        {title}
       </h3>
       {/* banner slider */}
       <Swiper
@@ -49,10 +51,10 @@ const DetailLayout = ({
             <Image
               src={item}
               alt='Quất chum, chum quất cảnh, quất bonsai'
-              className='w-full h-auto block'
               objectFit='cover'
               width={380}
               height={300}
+              style={{ height: '100%' }}
             />
           </SwiperSlide>
         ))}
@@ -85,9 +87,7 @@ const DetailLayout = ({
       </Swiper>
       {/* description */}
       <div className='mt-6 mb-8'>
-        <p className='text-xl font-semibold text-green-600 '>
-          Giá: 1xx.000 - 2xx.000đ
-        </p>
+        <p className='text-xl font-semibold text-green-600 '>Giá: {price}</p>
         <p className='font-semibold text-green-600 w-full border-b-2 border-gray-300 pb-1'>
           Giá trên đã bao gồm chum, chậu.
         </p>
